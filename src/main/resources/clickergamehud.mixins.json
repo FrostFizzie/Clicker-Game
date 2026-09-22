@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.frostfizzie.clickergamehud.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "MixinGatherHeaders",
+    "client.MixinClientConnection",
+    "client.MixinMessageHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
